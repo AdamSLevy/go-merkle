@@ -1,8 +1,9 @@
 go-merkle
 =========
-[![GoDoc](https://godoc.org/github.com/xsleonard/go-merkle?status.svg)](https://godoc.org/github.com/xsleonard/go-merkle)
-[![Travis CI](https://api.travis-ci.org/xsleonard/go-merkle.svg?branch=master)](https://travis-ci.org/xsleonard/go-merkle)
-[![codecov](https://codecov.io/gh/xsleonard/go-merkle/branch/master/graph/badge.svg)](https://codecov.io/gh/xsleonard/go-merkle)
+Forked from [github.com/xsleonard/go-merkle](https://github.com/xsleonard/go-merkle)
+[![GoDoc](https://godoc.org/github.com/AdamSLevy/go-merkle?status.svg)](https://godoc.org/github.com/AdamSLevy/go-merkle)
+[![Travis CI](https://api.travis-ci.org/AdamSLevy/go-merkle.svg?branch=master)](https://travis-ci.org/AdamSLevy/go-merkle)
+[![codecov](https://codecov.io/gh/AdamSLevy/go-merkle/branch/master/graph/badge.svg)](https://codecov.io/gh/AdamSLevy/go-merkle)
 
 A fixed Merkle Tree implementation in Go
 
@@ -15,7 +16,7 @@ package main
 import (
     "crypto/md5"
     "fmt"
-    "github.com/xsleonard/go-merkle"
+    "github.com/AdamSLevy/go-merkle"
     "io/ioutil"
 )
 
